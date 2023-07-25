@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    padding: 25px;
+}
+
+@media (max-width:768px)
+{
+.parent{
+    background-color: azure;
+    height: 700px;
+    width: 100%;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.child{
+    background-color:greenyellow;
+    height: 200px;
+    width : 200px;
+}
+}
+
+@media (min-width :768px)
+{
+    .parent{
+        background-color: azure;
+        height: 500px;
+        width: 100%;
+        gap: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .child{
+        background-color:rgb(255, 47, 57);
+        height: 200px;
+        width : 200px;
+    }
+    }

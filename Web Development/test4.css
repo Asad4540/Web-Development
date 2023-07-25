@@ -1,0 +1,30 @@
+.myclass {
+    background-color: chartreuse;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    border-style: double;
+
+
+}
+
+.myclass2 {
+    color: chartreuse;
+}
+
+#myid {
+    color: blueviolet;
+}
+
+.navbar {
+    color: brown;
+   display: flex;
+}
+
+.margin {
+    color: crimson;
+    border-style: dotted;
+    border-color: black;
+    padding:20px;
+    margin:20px;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+}
+.parent {
+    background-color: blue;
+    width:200px;
+    height:200px;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+.child {
+    position: absolute;
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    right:0;
+    top: 0;
+    
+}
+
+.parent2 {
+    background-color: blueviolet;
+    position: relative;
+    height: 400px;
+    width: 400px;
+    right:0;
+    top: 0;
+    
+}
+
+.child2 {
+    background-color: antiquewhite;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 0;
+    left: 0;
+}
